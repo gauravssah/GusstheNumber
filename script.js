@@ -12,9 +12,9 @@ let previoueinput = document.querySelector("#previoueinput");
 let attampt = document.querySelector("#attampt");
 let numberMessage = document.querySelector(".numberMessage");
 
-let click = new Audio("/SOUND/click.wav");
-let loss = new Audio("/SOUND/loss.wav");
-let win = new Audio("/SOUND/win.wav");
+let click = new Audio("SOUND/click.wav");
+let loss = new Audio("SOUND/loss.wav");
+let win = new Audio("SOUND/win.wav");
 
 // click.play();
 // loss.play();
