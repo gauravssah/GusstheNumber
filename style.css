@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .welcomeScree {
@@ -66,13 +66,15 @@ body {
 }
 
 @keyframes roatet {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -141,13 +143,13 @@ button:hover {
 }
 
 #userNumber {
-   width: 100%;
-   object-fit: cover;
+    width: 100%;
+    object-fit: cover;
     margin: 1rem auto;
     padding: 1rem 1.5rem;
     outline: none;
     text-align: center;
-    
+
 }
 
 .information {
@@ -163,7 +165,7 @@ button:hover {
 
 }
 
-.information  span {
+.information span {
     color: red;
     font-size: 2.5rem;
 }
@@ -175,16 +177,28 @@ button:hover {
 
 
 @media (max-width: 835px) {
-  
-    html{
+
+    html {
         font-size: 40%;
     }
 
-  
+
 }
 
+@media (min-width: 300px) {
 
+    html {
+        font-size: 40%;
+    }
 
+    .gameContainer {
+        width: 90%;
+        background-color: var(--bodyColoe);
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-
-
+}
